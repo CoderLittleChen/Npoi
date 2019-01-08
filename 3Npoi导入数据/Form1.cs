@@ -19,6 +19,7 @@ namespace _3Npoi导入数据
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //上传成功了吗？
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = @"C:\Users\sdm\Desktop";
             openFileDialog.FilterIndex = 2;
