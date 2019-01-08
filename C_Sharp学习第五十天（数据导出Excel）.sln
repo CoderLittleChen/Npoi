@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Sharp学习第五十天（数据导出Excel）", "C_Sharp学习第五十天（数据导出Excel）\C_Sharp学习第五十天（数据导出Excel）.csproj", "{6521CE17-E6DB-4B84-A5D3-25BD5BEAA230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1在指定目录下创建文件夹", "1在指定目录下创建文件夹\1在指定目录下创建文件夹.csproj", "{6FA6CC7E-79D0-4EA6-8E84-087250E87E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Substring", "2Substring\2Substring.csproj", "{B09E75A3-B8B6-4962-B46A-3F38ABA25341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Npoi导入数据", "3Npoi导入数据\3Npoi导入数据.csproj", "{D56209FE-7628-4595-9783-10F93E0D7592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6521CE17-E6DB-4B84-A5D3-25BD5BEAA230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6521CE17-E6DB-4B84-A5D3-25BD5BEAA230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6521CE17-E6DB-4B84-A5D3-25BD5BEAA230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6521CE17-E6DB-4B84-A5D3-25BD5BEAA230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA6CC7E-79D0-4EA6-8E84-087250E87E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA6CC7E-79D0-4EA6-8E84-087250E87E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA6CC7E-79D0-4EA6-8E84-087250E87E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA6CC7E-79D0-4EA6-8E84-087250E87E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09E75A3-B8B6-4962-B46A-3F38ABA25341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09E75A3-B8B6-4962-B46A-3F38ABA25341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09E75A3-B8B6-4962-B46A-3F38ABA25341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09E75A3-B8B6-4962-B46A-3F38ABA25341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56209FE-7628-4595-9783-10F93E0D7592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56209FE-7628-4595-9783-10F93E0D7592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56209FE-7628-4595-9783-10F93E0D7592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56209FE-7628-4595-9783-10F93E0D7592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3CA0F51-44E9-40D5-A3CA-D267A05985B8}
+	EndGlobalSection
+EndGlobal

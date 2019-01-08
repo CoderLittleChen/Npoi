@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$('#txt').click(function () {
+            //    //$.ajax({
+            //    //    url: 'Handler1.ashx?action=ExportExcel',
+            //    //    data: { name: '张三' },
+            //    //    type: 'POST',
+            //    //    success: function (data) {
+            //    //        $('#downloadRul').attr("href", data);
+            //    //        $('#downloadRul').trigger("click");
+
+            //    //    },
+            //    //    error: function () {
+            //    //    }
+            //    //})
+            //    //window.location.href = './客户信息导入.xlsx';
+            //})
+
+            $('#txt').click(function () {
+                $('#downloadUrl').attr("href", "./客户信息导入.xlsx");
+                $('#downloadUrl>p').trigger("click");
+            })
+
+        })
+
+
+
+    </script>
+</head>
+<body>
+    <div>
+        <input type="button" id="txt" name="name" value="导出Excel" />
+        <div style="display: none">
+            <a id="downloadUrl" href="">
+                <p></p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
