@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1在指定目录下创建文件夹
+namespace _01在指定目录下创建文件夹
 {
     class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace _3Npoi导入数据
+﻿namespace _03Npoi导入数据
 {
     partial class Form1
     {
@@ -28,25 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.ExportData = new System.Windows.Forms.Button();
+            this.InportDataBySpire = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // ExportData
             // 
-            this.button1.Location = new System.Drawing.Point(150, 93);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ExportData.Location = new System.Drawing.Point(150, 93);
+            this.ExportData.Name = "ExportData";
+            this.ExportData.Size = new System.Drawing.Size(115, 40);
+            this.ExportData.TabIndex = 0;
+            this.ExportData.Text = "Npoi导入数据";
+            this.ExportData.UseVisualStyleBackColor = true;
+            this.ExportData.Click += new System.EventHandler(this.ExportData_Click);
+            // 
+            // InportDataBySpire
+            // 
+            this.InportDataBySpire.Location = new System.Drawing.Point(150, 163);
+            this.InportDataBySpire.Name = "InportDataBySpire";
+            this.InportDataBySpire.Size = new System.Drawing.Size(115, 40);
+            this.InportDataBySpire.TabIndex = 1;
+            this.InportDataBySpire.Text = "Spire导出数据";
+            this.InportDataBySpire.UseVisualStyleBackColor = true;
+            this.InportDataBySpire.Click += new System.EventHandler(this.InportDataBySpire_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(470, 380);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.InportDataBySpire);
+            this.Controls.Add(this.ExportData);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +67,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ExportData;
+        private System.Windows.Forms.Button InportDataBySpire;
     }
 }
 
