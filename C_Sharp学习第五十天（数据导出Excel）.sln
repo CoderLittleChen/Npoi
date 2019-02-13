@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Npoi导入数据", "3Npoi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Quarz.Net入门", "04Quarz.Net入门\04Quarz.Net入门.csproj", "{0228D02E-2846-4A00-AF5C-40E32F2EF2CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05快速排序", "05快速排序\05快速排序.csproj", "{60BAFEFA-1558-43F0-900C-E4D7F87775F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0228D02E-2846-4A00-AF5C-40E32F2EF2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0228D02E-2846-4A00-AF5C-40E32F2EF2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0228D02E-2846-4A00-AF5C-40E32F2EF2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
