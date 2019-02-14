@@ -8,17 +8,31 @@
         $(function () {
             //时间冒泡就是当父元素存在同一事件时，在子元素的事件处理程序中会自动调用其父级元素的事件处理程序
             $("#btn").click(function () {
+                //这种情况   我们也没见过这种情侣狂
                 $("div>input").trigger("click");
             });
 
-            //$("div>input").trigger("click");
+            $("#div3").click(function () {
+                alert("这是div3");
+                event.stopPropagation();
+            });
+
+            $("#div2").click(function () {
+                alert("这是div2");
+                
+            })
+            
         })
     </script>
-    
+
 </head>
 <body>
-    <div style="background-color:cyan;width:250px;height:250px"  onclick="alert('div点击事件')">
-        <input type="button" name="name" value="按钮" onclick="alert('按钮点击事件')"  />
+    <div id="div1" style="background-color:cyan;width:250px;height:250px" onclick="alert('div点击事件')">
+        <input type="button" name="name" value="按钮" onclick="alert('按钮点击事件')" />
+    </div>
+    <div id="div2" style="background-color:yellow;width:250px;height:250px">
+        <div id="div3" style="background-color:lightgreen;width:50px;height:50px">
+        </div>
     </div>
     <input type="button" id="btn" name="name" value="触发按钮" />
 </body>
