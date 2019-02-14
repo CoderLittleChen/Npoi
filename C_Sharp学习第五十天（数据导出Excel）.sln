@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Quarz.Net入门", "04Quar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05快速排序", "05快速排序\05快速排序.csproj", "{60BAFEFA-1558-43F0-900C-E4D7F87775F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Jquery疑问", "06Jquery疑问\06Jquery疑问.csproj", "{1ADA633F-8E50-4BAE-83D9-FC06A310D5FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07选择更省钱的上班方式", "07选择更省钱的上班方式\07选择更省钱的上班方式.csproj", "{CD85724F-2354-471B-866A-34361820FDC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60BAFEFA-1558-43F0-900C-E4D7F87775F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADA633F-8E50-4BAE-83D9-FC06A310D5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADA633F-8E50-4BAE-83D9-FC06A310D5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADA633F-8E50-4BAE-83D9-FC06A310D5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADA633F-8E50-4BAE-83D9-FC06A310D5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD85724F-2354-471B-866A-34361820FDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD85724F-2354-471B-866A-34361820FDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD85724F-2354-471B-866A-34361820FDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD85724F-2354-471B-866A-34361820FDC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

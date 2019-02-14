@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        //Jquery中   方法名称大小写有严格规定   必须为小写
+        $(function () {
+            $("#btn").click(function () {
+                $("#downloadRul").attr("href", "www.baidu.com");
+                $("#downloadRul").trigger("click");
+            });
+            function test() {
+                alert(11);  
+            }
+        });
+    </script>
+</head>
+<body>
+    <!--<a onclick="" href="javascript:void(0);">点我啊</a>-->
+    <div style='display: none'>
+        <a id='downloadRul' href=''>
+            <p click="">
+            </p>
+        </a>
+    </div>
+    <input type="button" id="btn" name="name" value="按钮" />
+</body>
+</html>

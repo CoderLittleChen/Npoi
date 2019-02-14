@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //这里有一个采坑点是  在Jquery中  如果要使用trigger来触发a标签的点击事件，是不能触发的，需要通过触发子元素的click事件
+            //由事件冒泡来 触发上级元素的click事件
+            $("#test>p").trigger("click");
+        })
+    </script>
+</head>
+<body>
+    <div style="display:none">
+        <a id="test" href="模板.xls" >
+            <p></p>
+        </a>
+    </div>
+</body>
+</html>
